@@ -1,0 +1,151 @@
+/* Flex Container Properties */
+
+/* Display as Flex Container */
+.flex-container {
+    display: flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row; /* Default value */
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap; /* Default value */
+}
+
+/* Justify Content */
+.justify-start {
+    justify-content: flex-start; /* Default value */
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+/* Align Items */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch; /* Default value */
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Flex Container Full Properties */
+.full-properties {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+/* Flex Child Properties */
+
+/* Flex Grow */
+.flex-child {
+    flex-grow: 1; /* Default value */
+}
+
+.flex-child-grow2 {
+    flex-grow: 2;
+}
+
+/* Flex Shrink */
+.flex-child-shrink {
+    flex-shrink: 1; /* Default value */
+}
+
+.flex-child-shrink0 {
+    flex-shrink: 0;
+}
+
+/* Flex Basis */
+.flex-child-basis {
+    flex-basis: auto; /* Default value */
+}
+
+.flex-child-basis-fixed {
+    flex-basis: 200px;
+}
+
+/* Flex Order */
+.flex-child-order1 {
+    order: 1;
+}
+
+.flex-child-order2 {
+    order: 2;
+}
